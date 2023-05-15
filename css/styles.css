@@ -17,7 +17,15 @@ body {
     font-family: 'Merriweather', serif;
     color: #fff;
 }
+.rounded-image {
+    border-radius: 5%;
+    width: 400px;
+    height: 300px;
+  }
 
+  .flex-container {
+    display: flex;
+  }
 
 /* Typeography General*/
 h1 {
@@ -58,6 +66,7 @@ main {
 section {
     position: relative;
     min-height: 50vh;
+    display: flex !important;
 }
 
 
